@@ -1,4 +1,4 @@
-h1, div {
+h1, #about {
   text-align: center;
 }
 img {
@@ -14,4 +14,20 @@ a {
 }
 a:hover {
   color: red;
+}
+nav {
+  position: fixed;
+  background: white;
+  text-align: center;
+  right: 0;
+  top: 0;
+  border: 2px black solid;
+  border-radius: 90% 0 0 90%;
+  padding: 1px;
+}
+#nav {
+  list-style: none;
+}
+#nav > li {
+  margin-top: 5px;
 }
